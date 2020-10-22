@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BGScroll : MonoBehaviour
 {
-    float scrollSpeed = -5f;
+    float scrollSpeed = -2f;
     Vector2 startPos;
 
     void Start()
