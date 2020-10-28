@@ -11,7 +11,8 @@ public class RespawnScript : MonoBehaviour
     { 
         if(other.CompareTag("Player"))
         {
-            player.transform.position = respawnPoint.transform.position;
+            player.transform.position = new Vector3(respawnPoint.transform.position.x, respawnPoint.transform.position.y, player.transform.position.z);
+            //player.transform.position = respawnPoint.transform.position;
             Physics.SyncTransforms();
         }
     }
