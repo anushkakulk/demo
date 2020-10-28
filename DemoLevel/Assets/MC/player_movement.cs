@@ -7,15 +7,38 @@ using UnityEngine;
 
 public class player_movement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    
+    public float speed = 5f;
+    public float jumpSpeed = 5f;
+    private float movement = 0f;
+    private Rigidbody2D rigidBody;
 
-    
+    void Start()
+    {
+        rigidBody = GetComponent<Rigidbody2D>();
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
-        transform.position += movement * Time.deltaTime * moveSpeed;
+        movement = Input.GetAxis("Horizontal");
+        if (movement > 0f)
+        {
+            rigidBody.velocity = new Vector2(movement * speed, rigidBody.velocity.y);
+        }
+        else if (movement < 0f)
+        {
+            rigidBody.velocity = new Vector2(movement * speed, rigidBody.velocity.y);
+        }
+        else
+        {
+            rigidBody.velocity = new Vector2(0, rigidBody.velocity.y);
+        }
+        if (Input.GetButtonDown("Jump"))
+        {
+            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpSpeed);
+        }
     }
+    
+
 }
