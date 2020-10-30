@@ -55,3 +55,6 @@ TagManager:
   - name: MC
     uniqueID: 3404561751
     locked: 0
+  - name: Text
+    uniqueID: 3760662201
+    locked: 0
