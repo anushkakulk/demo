@@ -8,8 +8,8 @@ using UnityEngine;
 public class player_movement : MonoBehaviour
 {
     public float speed = 5f;
-    public float jumpSpeed = 75f;
-    private float movement = 0f;
+    public float jumpSpeed = 1000f;
+    private float movement = 10f;
     private Rigidbody2D rigidBody;
 
     public GameObject bulletToRight, bulletToLeft;
