@@ -12,6 +12,11 @@ public class player_movement : MonoBehaviour
     private float movement = 0f;
     private Rigidbody2D rigidBody;
 
+    public GameObject bulletToRight, bulletToLeft;
+    Vector2 bulletPos;
+    public float fireRate = 0.5f;
+    float nextFire = 0.0f;
+
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
@@ -38,7 +43,27 @@ public class player_movement : MonoBehaviour
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpSpeed);
         }
-    }
     
+        if (Input.GetButtonDown ("Fire1") && Time.time > nextFire)
+        {
+            nextFire = Time.time + fireRate;
+          fire();
+        }
 
-}
+        void fire ()
+        {
+         bulletPos = transform.position;
+            if (movement > 0f)
+            {
+                bulletPos += new Vector2(+1f, -0.5f);
+                Instantiate(bulletToRight, bulletPos, Quaternion.identity);
+            } else if (movement < 0f)
+            {
+                bulletPos += new Vector2(-1f, -0.5f);
+                Instantiate(bulletToLeft, bulletPos, Quaternion.identity);
+            }
+            }
+        }
+
+
+    }
