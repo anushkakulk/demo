@@ -8,6 +8,8 @@ public class Restart : MonoBehaviour
     public void RestartGame()
     {
         Time.timeScale = 1f;
+        ScoreScript.scoreValue = 0;
+
         SceneManager.LoadScene("demoBackground");
            
     }

@@ -8,6 +8,7 @@ public class WhenHit : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Bullet"))
         {
+            ScoreScript.scoreValue += 20;
             Destroy(col.gameObject);
             Destroy(gameObject);
         }
