@@ -7,9 +7,15 @@ public class PauseButtonScript : MonoBehaviour
 {
     bool isPaused = false;
 
-
-    public void pauseGame()
+    public AudioSource pauseSource;
+    private void Start()
     {
+        pauseSource = GetComponent<AudioSource>();
+    }
+    public void pauseGame()
+         
+    {
+        pauseSource.Play();
         if (isPaused)
         {
             Time.timeScale = 1;
@@ -20,6 +26,7 @@ public class PauseButtonScript : MonoBehaviour
         {
             Time.timeScale = 0;
             isPaused = true;
+           
         }
     }
 }
