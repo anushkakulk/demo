@@ -7,6 +7,8 @@ public class Restart : MonoBehaviour
 {
     public void RestartGame()
     {
-           SceneManager.LoadScene("demoBackground");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("demoBackground");
+           
     }
 }
