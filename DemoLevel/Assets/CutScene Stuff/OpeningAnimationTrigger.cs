@@ -9,29 +9,43 @@ public class OpeningAnimationTrigger : MonoBehaviour
     public float speed;
     private Vector3 position;
     public Animator MyAnimator;
+    public bool TurnOn;
     // Use this for initialization
     void Start()
     {
         MyAnimator.gameObject.GetComponent<Animator>().enabled = true;
         position = gameObject.transform.position;
-        MyAnimator = GetComponent<Animator>();
+        TurnOn = false;
         target = new Vector3(6, -.6f, 0);
     }
 
     
-    void Update()
+    public void Update()
     {
-        float step = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, target, step);
-        if(position.y == target.y && position.x == target.x)
+        if (TurnOn)
         {
-            End();
+
+            float step = speed * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(transform.position, target, step);
+
+            if (transform.position.y == target.y && transform.position.x == target.x)
+            {
+                End();
+            }
+
         }
+    }
+
+    public void Switch()
+    {
+        TurnOn = true;
     }
 
     void End()
     {
-        MyAnimator.enabled = false ;
+        MyAnimator.gameObject.GetComponent<Animator>().enabled = false;
+        
+
     }
 
 }
