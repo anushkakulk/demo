@@ -18,6 +18,5 @@ public class PowerUpScript : MonoBehaviour
             HealthScript.health += 1;
             powerUpSource.Play();
         }
-
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Bullet
   - PowerUp
+  - Coin
+  - Ground
   layers:
   - Default
   - TransparentFX
