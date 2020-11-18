@@ -3915,6 +3915,7 @@ GameObject:
   - component: {fileID: 832357784}
   - component: {fileID: 832357783}
   - component: {fileID: 832357782}
+  - component: {fileID: 832357787}
   m_Layer: 0
   m_Name: house
   m_TagString: Untagged
@@ -4049,6 +4050,18 @@ Transform:
   m_Father: {fileID: 915609761}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &832357787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832357781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca655fb82da345340bef9e965b655b58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &851115537
 GameObject:
   m_ObjectHideFlags: 0
@@ -10097,12 +10110,12 @@ PrefabInstance:
     - target: {fileID: 3073358012855341439, guid: 5dc0e35f6e6b96d40af265de56876f19,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.47
+      value: 99.72
       objectReference: {fileID: 0}
     - target: {fileID: 3073358012855341439, guid: 5dc0e35f6e6b96d40af265de56876f19,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.18
+      value: 23.68
       objectReference: {fileID: 0}
     - target: {fileID: 3073358012855341439, guid: 5dc0e35f6e6b96d40af265de56876f19,
         type: 3}
