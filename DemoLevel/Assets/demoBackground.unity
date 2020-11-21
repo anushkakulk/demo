@@ -234,12 +234,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 69349558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 69349565}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &69349560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,12 +520,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 93787850}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 93787856}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &93787854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -755,12 +755,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 125459564}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 125459570}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &125459568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1125,12 +1125,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 132636000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 132636007}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &132636004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2671,12 +2671,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 596238809}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 596238815}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &596238812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2973,12 +2973,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 619550950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 619550960}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!82 &619550960
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3359,7 +3359,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726832864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.299988, y: 7.708198, z: -53.67955}
+  m_LocalPosition: {x: 23.299988, y: 7.708198, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3611,12 +3611,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 792779275}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 792779281}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &792779279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4962,12 +4962,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1121657864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 1121657870}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &1121657868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5775,12 +5775,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1493288262}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 1493288268}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &1493288266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5954,12 +5954,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1497813275}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 1497813285}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!82 &1497813285
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6250,9 +6250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oofSource: {fileID: 1516188797}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
 --- !u!114 &1516188795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6615,9 +6612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oofSource: {fileID: 1554514798}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
 --- !u!114 &1554514796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7189,12 +7183,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1608652817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 1608652823}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &1608652821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7382,7 +7376,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671718678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.936, y: -9.36, z: 0}
+  m_LocalPosition: {x: -0.959, y: -4.9, z: 0}
   m_LocalScale: {x: 4.4318933, y: 0.5693012, z: 1}
   m_Children: []
   m_Father: {fileID: 438025689}
@@ -7581,12 +7575,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1671718678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 1671718683}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!1 &1674133041
 GameObject:
   m_ObjectHideFlags: 0
@@ -8527,12 +8521,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1847250619}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 1847250625}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &1847250623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8926,12 +8920,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1915728443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 1915728453}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!82 &1915728453
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9098,12 +9092,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1995476326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 1995476332}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &1995476330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9332,12 +9326,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2020399064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 2020399070}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &2020399068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9787,12 +9781,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2147234295}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001dba67813347a40b8603a514c78c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bbb1e6f4439cda74fa909d998a68a8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   oofSource: {fileID: 2147234301}
-  player: {fileID: 984284326}
-  respawnPoint: {fileID: 726832865}
+  _player: {fileID: 984284326}
+  _respawnPoint: {fileID: 726832865}
 --- !u!114 &2147234299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10110,12 +10104,12 @@ PrefabInstance:
     - target: {fileID: 3073358012855341439, guid: 5dc0e35f6e6b96d40af265de56876f19,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 99.72
+      value: 23.9
       objectReference: {fileID: 0}
     - target: {fileID: 3073358012855341439, guid: 5dc0e35f6e6b96d40af265de56876f19,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.68
+      value: 7.2
       objectReference: {fileID: 0}
     - target: {fileID: 3073358012855341439, guid: 5dc0e35f6e6b96d40af265de56876f19,
         type: 3}
@@ -10381,5 +10375,10 @@ PrefabInstance:
       propertyPath: enemy
       value: 
       objectReference: {fileID: 1524037703}
+    - target: {fileID: 8526120271489700906, guid: 8d270bdaab792f141b182a99d193804a,
+        type: 3}
+      propertyPath: spawnRate
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d270bdaab792f141b182a99d193804a, type: 3}
