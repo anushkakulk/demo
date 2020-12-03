@@ -547,7 +547,6 @@ GameObject:
   - component: {fileID: 482538656}
   - component: {fileID: 482538655}
   - component: {fileID: 482538659}
-  - component: {fileID: 482538660}
   m_Layer: 0
   m_Name: MrKramerSpriteSheet_0
   m_TagString: Untagged
@@ -568,9 +567,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.015898665}
+  m_Offset: {x: 0, y: 0.23007202}
   serializedVersion: 2
-  m_Radius: 4.969102
+  m_Radius: 4.754928
 --- !u!95 &482538656
 Animator:
   serializedVersion: 3
@@ -579,10 +578,10 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482538654}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 367b8936c587afa4f9bc3dc7d1106f00, type: 2}
-  m_CullingMode: 2
+  m_Controller: {fileID: 9100000, guid: 91f99db3cdf3fc94384a6d610bb8a91b, type: 2}
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -649,8 +648,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482538654}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.94, y: -0.56, z: 0}
-  m_LocalScale: {x: 0.44911933, y: 0.44911933, z: 0.44911933}
+  m_LocalPosition: {x: 5.19, y: 0.636, z: 0}
+  m_LocalScale: {x: 0.74635047, y: 0.74635047, z: 0.74635047}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -669,29 +668,13 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0
+  m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!114 &482538660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482538654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09a8743e11fd4334db281abc575ce170, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {x: 6, y: 0, z: 0}
-  speed: 5
-  MyAnimator: {fileID: 482538656}
-  TurnOn: 0
+  m_Constraints: 0
 --- !u!1 &495779908
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,8 +851,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526751905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.499, y: -5.117, z: 0}
-  m_LocalScale: {x: 13.022573, y: 0.92799664, z: 1}
+  m_LocalPosition: {x: -11.499, y: -4.97, z: 0}
+  m_LocalScale: {x: 9.196385, y: 0.9610198, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -985,7 +968,6 @@ GameObject:
   - component: {fileID: 991347414}
   - component: {fileID: 991347416}
   - component: {fileID: 991347415}
-  - component: {fileID: 991347417}
   m_Layer: 5
   m_Name: Start Button
   m_TagString: Untagged
@@ -1109,30 +1091,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 991347417}
-        m_MethodName: TriggerAnim
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &991347417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991347413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39093052e4be0774f874bc381bf7db5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Anim: {fileID: 0}
 --- !u!1 &1192522155
 GameObject:
   m_ObjectHideFlags: 0
