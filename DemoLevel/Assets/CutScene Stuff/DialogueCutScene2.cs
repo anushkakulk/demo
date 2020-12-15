@@ -4,16 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class DialogueManager : MonoBehaviour
+public class DialogueCutScene2 : MonoBehaviour
 {
 
-    private Queue <string> sentences;
+    private Queue<string> sentences;
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
     public float delay = 0.001f;
     private int namenumber = 0;
-    private string sentence = "";
 
 
     // Start is called before the first frame update
@@ -26,10 +25,10 @@ public class DialogueManager : MonoBehaviour
     {
 
         nameText.text = "You";
-        
-        
+
+
         animator.SetBool("IsOpen", true);
-        
+
 
         sentences.Clear();
 
@@ -37,40 +36,22 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
-        
+
         DisplayNextSentence();
     }
-    
-    
-    
+
     public void DisplayNextSentence()
     {
-
-        
-
-        /* if (!(dialogueText.text.Equals(sentence)))
-        {
-
-            dialogueText.text = "";
-            DisplayWholeSentence(sentence);
-            return;
-        } */
-
-        if (sentences.Count ==0)
+        if (sentences.Count == 0)
         {
             EndDialogue();
-            
+            return;
         }
 
-        sentence = sentences.Dequeue();
+
+        string sentence = sentences.Dequeue();
         dialogueText.text = sentence;
-
-        
-
         StopAllCoroutines();
-        
-        
-            
         StartCoroutine(TypeSentence(sentence));
         Debug.Log(namenumber);
         namenumber++;
@@ -81,30 +62,22 @@ public class DialogueManager : MonoBehaviour
         }
         if (namenumber > 1 && namenumber % 2 != 0)
         {
-            Debug.Log("Starting conversation with Mr. Kramer");
-            nameText.text = "Mr. Kramer";
+            Debug.Log("Starting conversation with Martha");
+            nameText.text = "Martha";
         }
-        
-        
+
+      
     }
 
-    IEnumerator TypeSentence (string sentence)
+    IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
-        foreach(char letter in sentence.ToCharArray())
+        foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(delay);
         }
-        
     }
-
-    
-   /*public void DisplayWholeSentence(string sentence)
-    {
-        
-        dialogueText.text = sentence;
-    }*/
 
     void EndDialogue()
     {
