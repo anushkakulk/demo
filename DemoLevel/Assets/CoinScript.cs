@@ -14,7 +14,7 @@ public class CoinScript : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Coin"))
         {
-            Destroy(col.gameObject, .005f);
+            Destroy(col.gameObject, .00005f);
             ScoreScript.scoreValue += 5;
             coinSource.Play();
         }
