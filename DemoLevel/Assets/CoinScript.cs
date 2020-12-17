@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class CoinScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public AudioSource coinSource; 
+    private void Start()
     {
-        
+        coinSource = GetComponent<AudioSource>();
     }
 
     void OnCollisionEnter2D(Collision2D col) 
     {
         if (col.gameObject.CompareTag("Coin"))
         {
-            Destroy(col.gameObject, .25f);
+            Destroy(col.gameObject, .005f);
             ScoreScript.scoreValue += 5;
+            coinSource.Play();
         }
     }
 }
