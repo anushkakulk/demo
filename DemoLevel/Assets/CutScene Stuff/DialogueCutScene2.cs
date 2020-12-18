@@ -44,7 +44,7 @@ public class DialogueCutScene2 : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-        Debug.Log("Working?");
+        
         if (sentences.Count == 0)
         {
             EndDialogue();
@@ -86,6 +86,6 @@ public class DialogueCutScene2 : MonoBehaviour
     {
 
         Debug.Log("End of conversation");
-        SceneManager.LoadScene("demoBackground");
+        SceneManager.LoadScene("level2");
     }
 }
