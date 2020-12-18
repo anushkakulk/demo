@@ -10,7 +10,8 @@ public class DialogueCutScene2 : MonoBehaviour
     private Queue<string> sentences;
     public Text nameText;
     public Text dialogueText;
-  
+    
+
     public float delay = 0.001f;
     private int namenumber = 0;
     
@@ -43,6 +44,7 @@ public class DialogueCutScene2 : MonoBehaviour
 
     public void DisplayNextSentence()
     {
+        Debug.Log("Working?");
         if (sentences.Count == 0)
         {
             EndDialogue();
@@ -56,15 +58,15 @@ public class DialogueCutScene2 : MonoBehaviour
         StartCoroutine(TypeSentence(sentence));
         Debug.Log(namenumber);
         namenumber++;
-        if (namenumber > 1 && namenumber % 2 == 0)
-        {
-            Debug.Log("Starting conversation with You");
-            nameText.text = "You";
-        }
-        if (namenumber > 1 && namenumber % 2 != 0)
+        if (namenumber % 2 == 0)
         {
             Debug.Log("Starting conversation with Martha");
             nameText.text = "Martha";
+        }
+        if (namenumber % 2 != 0)
+        {
+            Debug.Log("Starting conversation with You");
+            nameText.text = "You";
         }
 
       
