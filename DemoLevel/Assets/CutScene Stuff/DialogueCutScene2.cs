@@ -10,15 +10,17 @@ public class DialogueCutScene2 : MonoBehaviour
     private Queue<string> sentences;
     public Text nameText;
     public Text dialogueText;
-    public Animator animator;
+  
     public float delay = 0.001f;
     private int namenumber = 0;
+    
 
 
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
+        
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -27,8 +29,7 @@ public class DialogueCutScene2 : MonoBehaviour
         nameText.text = "You";
 
 
-        animator.SetBool("IsOpen", true);
-
+        
 
         sentences.Clear();
 
