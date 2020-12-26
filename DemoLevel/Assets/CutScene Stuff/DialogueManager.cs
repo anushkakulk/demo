@@ -111,6 +111,6 @@ public class DialogueManager : MonoBehaviour
     {
 
         Debug.Log("End of conversation");
-        SceneManager.LoadScene("demoBackground");
+        SceneManager.LoadScene(1);
     }
 }
