@@ -7,7 +7,7 @@ public class EnemySpawnerScript : MonoBehaviour
     public GameObject enemy;
     float randX;
     Vector2 whereToSpawn;
-    public float spawnRate = 2f;
+    public float spawnRate = .5f;
     float nextSpawn = 0.0f;
     // Start is called before the first frame update
     void Start()

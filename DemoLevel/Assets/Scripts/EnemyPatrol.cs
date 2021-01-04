@@ -5,7 +5,7 @@ public class EnemyPatrol : MonoBehaviour
 {
     Rigidbody2D enemyRigidBody2D;
     public int UnitsToMove = 5;
-    public float EnemySpeed = 500;
+    public float EnemySpeed = 750;
     public bool _isFacingRight;
     private float _startPos;
     private float _endPos;

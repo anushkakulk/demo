@@ -14,7 +14,7 @@ public class DialogueCutScene2 : MonoBehaviour
 
     public float delay = 0.001f;
     private int namenumber = 0;
-    
+    private string sentence = "";
 
 
     // Start is called before the first frame update
