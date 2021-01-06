@@ -11,18 +11,21 @@ public class DialogueCutScene2 : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     
-
+  
     public float delay = 0.001f;
     private int namenumber = 0;
     private string sentence = "";
 
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         sentences = new Queue<string>();
         
+
+
     }
+    
 
     public void StartDialogue(Dialogue dialogue)
     {
