@@ -4439,6 +4439,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &738493156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8096691904294257114, guid: eee8d31ad1d970741818d9ec32b04c45,
+    type: 3}
+  m_PrefabInstance: {fileID: 1765712782}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &748385096
 GameObject:
   m_ObjectHideFlags: 0
@@ -6037,8 +6043,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062551433}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.83, y: 12.8, z: -465.65323}
-  m_LocalScale: {x: 7.2154813, y: 0.9922217, z: 1}
+  m_LocalPosition: {x: 19.57, y: 12.8, z: -465.65323}
+  m_LocalScale: {x: 8.378833, y: 0.9922217, z: 1}
   m_Children: []
   m_Father: {fileID: 915609761}
   m_RootOrder: 8
@@ -11450,6 +11456,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1915728454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915728443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a241ea4a77ebbc54eba5e9a0c0ba02b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 738493156}
+  spawnRate: 0.5
 --- !u!1 &1960365844 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7907612422925295490, guid: 2351f2bee940305419b318ebe864b075,
@@ -12912,6 +12932,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -46
       objectReference: {fileID: 0}
+    - target: {fileID: 3709065560127644438, guid: dd4a7d5c16290514fbb771415fb59edb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3709065559731691853}
+    - target: {fileID: 3709065560127644438, guid: dd4a7d5c16290514fbb771415fb59edb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartGame
+      objectReference: {fileID: 0}
     - target: {fileID: 3709065560346040232, guid: dd4a7d5c16290514fbb771415fb59edb,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -13055,6 +13085,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd4a7d5c16290514fbb771415fb59edb, type: 3}
+--- !u!114 &3709065559731691853 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3709065560127644437, guid: dd4a7d5c16290514fbb771415fb59edb,
+    type: 3}
+  m_PrefabInstance: {fileID: 3709065559731691852}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68fe2d3815eb9dc41b9a6aba0ce74bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7907612423903284012
 PrefabInstance:
   m_ObjectHideFlags: 0
