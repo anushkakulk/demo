@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/level2.unity
     guid: 7b1390b67142ffb4a904ac0c2c46df51
+  - enabled: 1
+    path: Assets/cutScene3.unity
+    guid: 991d54a06b3378b4cb9dd985f66ecae3
+  - enabled: 1
+    path: Assets/level3.unity
+    guid: 369b3b6a2b240a940845b68ed46e43a1
   m_configObjects: {}

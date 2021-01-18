@@ -1161,6 +1161,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8096691904501171704, guid: eee8d31ad1d970741818d9ec32b04c45,
+        type: 3}
+      propertyPath: EnemySpeed
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 8096691904501171705, guid: eee8d31ad1d970741818d9ec32b04c45,
         type: 3}
       propertyPath: m_IsTrigger
@@ -10107,6 +10112,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8096691904501171704, guid: eee8d31ad1d970741818d9ec32b04c45,
+        type: 3}
+      propertyPath: EnemySpeed
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 8096691904501171705, guid: eee8d31ad1d970741818d9ec32b04c45,
         type: 3}
       propertyPath: m_IsTrigger
@@ -11326,6 +11336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8096691904501171704, guid: eee8d31ad1d970741818d9ec32b04c45,
+        type: 3}
+      propertyPath: EnemySpeed
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8096691904501171705, guid: eee8d31ad1d970741818d9ec32b04c45,
         type: 3}
