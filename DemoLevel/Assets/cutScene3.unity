@@ -147,7 +147,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 771500830}
+      objectReference: {fileID: 0}
     - target: {fileID: 1382958697199086590, guid: 561cbacd305842a47b897380e532f7ba,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -533,7 +533,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 162938723}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &736619949
+--- !u!114 &736619947
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -542,30 +542,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 736619945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be240dad6405539499c470300285c2ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 78de9d68223ca974c96cc57d578c51a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - "Uh hello. Who are you?\r"
-    - I am Martha, and you must be the savior King Kramer promised.
-    - "Yeah\u2026 I don\u2019t really know what that\u2019s about. He didn\u2019t
-      explain it very clearly to me.\r"
-    - "Well, you\u2019ve seen the dangerous slimes out there right? They are destroying
-      the kingdom, and you are here to save us.\r\n"
-    - "I haven\u2019t even graduated high school yet; I\u2019m not really the \u201Chero\u201D
-      type.\r"
-    - "Perhaps not in your world, but here, you are the only one with the power to
-      stop the evil slimes. You can Respawn and we can\u2019t.\r\n"
-    - 'Huh.
-
-'
-    - "It\u2019s not that difficult, I promise. Just find the magic key to banish
-      all of the evil slimes away.\r"
-    - And where would that be?
-    - "I\u2019m not sure, but I think Devin will know more. His house is a couple
-      leagues from here, and evil slimes guard the roads. Will you go?\r"
-    - "Sure. (What am I doing? I\u2019m not a hero; I\u2019m just a kid.)\r"
+    - hello
+    - bye
 --- !u!1 &771500828
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +589,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 771500828}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f1d3c05f8807e248af96217650f43e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 32069dec190807940958f0f7cf25113c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: {fileID: 778930529}
@@ -802,7 +785,7 @@ SpriteRenderer:
   m_SortingLayerID: 878383093
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 177e63f8a07b6844da2066f1efa51db6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7c38bb27658a58e4b8e9d8d2f76d55a0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -821,8 +804,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218201083}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.233, y: 0.011, z: 0}
-  m_LocalScale: {x: 0.51227164, y: 0.56398106, z: 0.5152277}
+  m_LocalPosition: {x: -0.035, y: -0.566, z: 0}
+  m_LocalScale: {x: 0.74379253, y: 0.5968604, z: 0.5152277}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -883,7 +866,7 @@ SpriteRenderer:
   m_SortingLayerID: 42548799
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f76f828a95cb08746aa58aec19e7a211, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 476344c87042b3c44ab7c34fff0c500d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
