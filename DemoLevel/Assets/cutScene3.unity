@@ -452,12 +452,12 @@ PrefabInstance:
     - target: {fileID: 3073358012855341439, guid: 5dc0e35f6e6b96d40af265de56876f19,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.52
+      value: -6.92
       objectReference: {fileID: 0}
     - target: {fileID: 3073358012855341439, guid: 5dc0e35f6e6b96d40af265de56876f19,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8
+      value: -2.46
       objectReference: {fileID: 0}
     - target: {fileID: 3073358012855341439, guid: 5dc0e35f6e6b96d40af265de56876f19,
         type: 3}
@@ -547,8 +547,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - hello
-    - bye
+    - "Hi, are you Devin?\r"
+    - "Yes, and you must be the promised hero.\r"
+    - "I see news spreads fast.\r"
+    - "You need to find the key to banish the evil slimes.\r"
+    - "Where is it?\r"
+    - "It\u2019s in the sky, miles above this desert. It will be dangerous to traverse
+      through outer space to find it.\r"
+    - "IT\u2019S IN SPACE??"
+    - "... You have a spacesuit on, you\u2019ll be fine.\r"
+    - "(I didn\u2019t sign up for this.)\r"
 --- !u!1 &771500828
 GameObject:
   m_ObjectHideFlags: 0
