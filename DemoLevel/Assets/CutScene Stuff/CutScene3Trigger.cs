@@ -8,7 +8,7 @@ public class CutScene3Trigger : MonoBehaviour
 
     public void TriggerDialogue()
     {
-        FindObjectOfType<DialogueCutScene2>().StartDialogue(dialogue);
+        FindObjectOfType<DialogueCutScene3>().StartDialogue(dialogue);
     }
 
     void Start()
