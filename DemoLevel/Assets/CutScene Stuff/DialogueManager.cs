@@ -83,7 +83,7 @@ public class DialogueManager : MonoBehaviour
         if (namenumber > 1 && namenumber % 2 != 0)
         {
             Debug.Log("Starting conversation with Mr. Kramer");
-            nameText.text = "Mr. Kramer";
+            nameText.text = "King Kramer";
         }
         
         

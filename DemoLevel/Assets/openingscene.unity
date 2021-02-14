@@ -1378,6 +1378,67 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 85721341}
+    - target: {fileID: 1382958698256129576, guid: 561cbacd305842a47b897380e532f7ba,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382958698256129576, guid: 561cbacd305842a47b897380e532f7ba,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: "What is this place? Everything here is so\u2026 strange.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382958698256129576, guid: 561cbacd305842a47b897380e532f7ba,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: "I guess this is better than Delaware. \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382958698256129576, guid: 561cbacd305842a47b897380e532f7ba,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: "Good day, young traveler. \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382958698256129576, guid: 561cbacd305842a47b897380e532f7ba,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 'Who are you?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382958698256129576, guid: 561cbacd305842a47b897380e532f7ba,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: 'I am offended. I am Slimetopher Kramer, the King of the Slimes. And
+        I have a task for you, young and foolish as you may be. You have expertise
+        my nation needs.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382958698256129576, guid: 561cbacd305842a47b897380e532f7ba,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: "The only thing I\u2019m an expert in is procrastination.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382958698256129576, guid: 561cbacd305842a47b897380e532f7ba,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: 'You are the Chosen One! Accept your destiny or it will devour you whole.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382958698256129576, guid: 561cbacd305842a47b897380e532f7ba,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: "That\u2019s ominous. Y\u2019know, I have SATs soon, so I\u2019d really
+        like to not be devoured. I\u2019ve really got a life ahead of me-\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382958698256129576, guid: 561cbacd305842a47b897380e532f7ba,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: 'Your incessant talking is hurting my head. Good luck and goodbye.
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 1382958698256129578, guid: 561cbacd305842a47b897380e532f7ba,
         type: 3}
       propertyPath: m_Name
